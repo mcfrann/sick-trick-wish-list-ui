@@ -1,5 +1,7 @@
 .trick-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
