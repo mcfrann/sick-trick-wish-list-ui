@@ -39,7 +39,7 @@ class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form className="form">
           <select id='stance' name='stance' onChange={this.handleChange}>
             <option value="" disabled selected hidden>choose stance:</option>
             <option value="regular">regular</option>

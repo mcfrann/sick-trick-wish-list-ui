@@ -44,7 +44,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Sick Trick Wish List</h1>
+        <h1 className="title">Sick Trick Wish List</h1>
         <Form addTrick={this.addTrick}/>
         <TrickList tricks={this.state.tricks}/>
       </div>
