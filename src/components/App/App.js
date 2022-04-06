@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Sick Trick Wish List</h1>
-        {/* <Form /> */}
+        <Form />
         <TrickList tricks={this.state.tricks}/>
       </div>
     );
